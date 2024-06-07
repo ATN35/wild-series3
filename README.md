@@ -1,7 +1,7 @@
 # Projet wild-series3
 
 ## 02 - Harmonia : Installation et initialisation d'un projet full-stack
-###Résumé
+### Résumé
 
 Pour créer et utiliser un nouveau projet Harmonia, tu dois respecter les étapes suivantes :
 
