@@ -20,3 +20,8 @@ app
   .on("error", (err) => {
     console.error("Error:", err.message);
   });
+
+  const sayHello = (req, res ) => {
+    res.send("Hello World!");
+  }
+  app.get("/", sayHello);
