@@ -11,10 +11,18 @@ Pour créer et utiliser un nouveau projet Harmonia, tu dois respecter les étape
 * Créer un fichier .env à la racine du dossier server et y ajouter les variables d'environnement nécessaires.
 * Lancer les applications React et Express en parallèle avec la commande npm run dev.
 
+## 03 - Harmonia : Routing
+### Résumé
+
+Pour ajouter des routes au server de ton projet Harmonia, tu dois respecter le SRP (Single Responsability Principle) :
+
+* Déclarer tes routes dans un fichier router.js dans le dossier server/app/routers/api.
+* Déclarer l'action associée à ta route dans un fichier séparé dans le dossier server/app/controllers.
+
 ## License
 [WildCodeSchool](https://www.wildcodeschool.com/fr-fr/)
 
-####################################
+__________________________________________
 
 # wild-series
 
