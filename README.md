@@ -1,4 +1,21 @@
-<<<<<<< HEAD
+# Projet wild-series3
+
+## 02 - Harmonia : Installation et initialisation d'un projet full-stack
+### Résumé
+
+Pour créer et utiliser un nouveau projet Harmonia, tu dois respecter les étapes suivantes :
+
+* Créer le projet avec la commande npm create harmonia@latest my-project où my-project est le nom de ton projet.
+* Te rendre dans le dossier de ton projet avec la commande cd my-project.
+* Lancer l'installation des dépendances avec la commande npm install.
+* Créer un fichier .env à la racine du dossier server et y ajouter les variables d'environnement nécessaires.
+* Lancer les applications React et Express en parallèle avec la commande npm run dev.
+
+## License
+[WildCodeSchool](https://www.wildcodeschool.com/fr-fr/)
+
+####################################
+
 # wild-series
 
 This project uses Harmonia. Harmonia is a framework meant to serve as a foundation for every project following the React-Express-MySQL stack, as learned in Wild Code School.
@@ -87,19 +104,3 @@ To add it during deployment, follow these 2 steps:
 If you want to access the logs of your online projet (to follow the deployement or to watch any bug error), connect to your VPS (`ssh user@host`).
 Then, go on your specific project and run  `docker compose logs -t -f`.
 =======
-# Projet wild-series3
-
-## 02 - Harmonia : Installation et initialisation d'un projet full-stack
-### Résumé
-
-Pour créer et utiliser un nouveau projet Harmonia, tu dois respecter les étapes suivantes :
-
-* Créer le projet avec la commande npm create harmonia@latest my-project où my-project est le nom de ton projet.
-* Te rendre dans le dossier de ton projet avec la commande cd my-project.
-* Lancer l'installation des dépendances avec la commande npm install.
-* Créer un fichier .env à la racine du dossier server et y ajouter les variables d'environnement nécessaires.
-* Lancer les applications React et Express en parallèle avec la commande npm run dev.
-
-## License
-[WildCodeSchool](https://www.wildcodeschool.com/fr-fr/)
->>>>>>> 5b0e971b6ea3685ef2efc394235ac49fea758d03
