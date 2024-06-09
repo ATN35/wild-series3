@@ -19,6 +19,15 @@ Pour ajouter des routes au server de ton projet Harmonia, tu dois respecter le S
 * Déclarer tes routes dans un fichier router.js dans le dossier server/app/routers/api.
 * Déclarer l'action associée à ta route dans un fichier séparé dans le dossier server/app/controllers.
 
+## 04 - Harmonia : Routing avancé
+### Résumé
+
+Pour récupérer des informations depuis l'URL, Express te fournit 2 objets :
+
+L'objet req.query te donne accès aux paires clé-valeur de la query string. Tu peux l'utiliser pour récupérer le "Eleanor" dans /api/programs?q=Eleanor.
+L'objet req.params te donne accès aux valeurs des segments dynamiques de ta route. Tu peux l'utiliser pour récupérer le "1" dans /api/programs/1.
+Utilise req.query quand tu veux récupérer une partie d'une liste (toutes les séries dont la catégorie est "Comédie", tous les utilisateurs dont le nom commence par un "A"...) et req.params quand tu veux récupérer un seul objet (la série pour une page dédiée, mon profil utilisateur...).
+
 ## License
 [WildCodeSchool](https://www.wildcodeschool.com/fr-fr/)
 
