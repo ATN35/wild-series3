@@ -1,0 +1,3 @@
+[submodule "wild-series3"]
+	path = wild-series3
+	url = git@github.com:ATN35/wild-series3.git
